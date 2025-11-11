@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/fred_app/__init__.py
+src/fred_app/api.py
+src/fred_app/charts.py
+src/fred_app/config.py
+src/fred_app/main.py
+src/fred_app/ui.py
+src/fred_app.egg-info/PKG-INFO
+src/fred_app.egg-info/SOURCES.txt
+src/fred_app.egg-info/dependency_links.txt
+src/fred_app.egg-info/requires.txt
+src/fred_app.egg-info/top_level.txt

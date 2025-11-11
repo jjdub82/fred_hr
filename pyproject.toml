@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fred-app"
+version = "0.1.0"
+description = "GUI for exploring FRED series and plotting charts"
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["fred_app"]
+
+[tool.setuptools.package-data]
+fred_app = ["*.ttf"]
+
+[tool.setuptools.data-files]
+"assets" = ["assets/app.ico"]
